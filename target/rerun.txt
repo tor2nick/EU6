@@ -1,0 +1,3 @@
+file:src/test/resources/features/Expenses.feature:3
+file:src/test/resources/features/Payments.feature:3
+file:src/test/resources/features/Login.feature:3
