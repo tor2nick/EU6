@@ -33,7 +33,6 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-
     /**
      * @return page name, for example: Dashboard
      */
@@ -43,7 +42,6 @@ public abstract class BasePage {
 //        BrowserUtils.waitForStaleElement(pageSubTitle);
         return pageSubTitle.getText();
     }
-
 
     /**
      * Waits until loader screen present. If loader screen will not pop up at all,
@@ -65,7 +63,6 @@ public abstract class BasePage {
         BrowserUtils.waitForVisibility(userName, 5);
         return userName.getText();
     }
-
 
 
     public void logOut(){
