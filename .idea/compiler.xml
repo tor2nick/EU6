@@ -8,8 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Finance_TN" />
-        <module name="EU6TestNGSelenium" />
+        <module name="Finance_NT4" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EU6TestNGSelenium" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
